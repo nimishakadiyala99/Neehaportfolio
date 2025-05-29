@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/neehaportfolio/static/css/main.b5a4b37c.css",
+    "main.js": "/neehaportfolio/static/js/main.2c708a33.js",
+    "index.html": "/neehaportfolio/index.html",
+    "main.b5a4b37c.css.map": "/neehaportfolio/static/css/main.b5a4b37c.css.map",
+    "main.2c708a33.js.map": "/neehaportfolio/static/js/main.2c708a33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5a4b37c.css",
+    "static/js/main.2c708a33.js"
+  ]
+}
