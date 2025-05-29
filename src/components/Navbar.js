@@ -1,15 +1,13 @@
-// src/components/Navbar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="flex items-center justify-between p-6 bg-white shadow-md">
-    <div className="text-2xl font-bold text-gray-800">PharmaCo</div>
-    <ul className="flex space-x-6 text-gray-600">
-      <li><a href="/">Home</a></li>
-      <li><a href="/products">Products</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
+  <nav className="bg-white shadow p-4 flex justify-between">
+    <div className="text-lg font-bold">PharmaCo</div>
+    <div>
+      <Link to="/" className="mr-4 text-blue-500">Home</Link>
+      <Link to="/products" className="text-blue-500">Products</Link>
+    </div>
   </nav>
 );
 
